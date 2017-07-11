@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{5B4DB713-8813-8245-BC3C-9C6ABC6CAB1A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
+     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
+     <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
+     <Compile Include="Assets\SteamVR\Extras\SteamVR_TestThrow.cs" />
+     <Compile Include="Assets\SteamVR\Extras\SteamVR_TestTrackedCamera.cs" />
+     <Compile Include="Assets\SteamVR\Extras\SteamVR_TrackedController.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\BodyCollider.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\CircularDrive.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\ComplexThrowable.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\ControllerHoverHighlight.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\CustomEvents.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DebugUI.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DestroyOnDetachedFromHand.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DestroyOnParticleSystemDeath.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DestroyOnTriggerEnter.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DistanceHaptics.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DontDestroyOnLoad.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\EnumFlags.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\FallbackCameraController.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Hand.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\HapticRack.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\HideOnHandFocusLost.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\IgnoreHovering.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\InputModule.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Interactable.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\InteractableButtonEvents.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\InteractableHoverEvents.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\ItemPackage.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\ItemPackageReference.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\ItemPackageSpawner.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearAnimation.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearAnimator.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearAudioPitch.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearBlendshape.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearDisplacement.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearDrive.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearMapping.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\PlaySound.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Player.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SeeThru.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SleepOnAwake.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SoundDeparent.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SoundPlayOneshot.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SpawnAndAttachAfterControllerIsTracking.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SpawnAndAttachToHand.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SpawnRenderModel.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Throwable.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\UIElement.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Unparent.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Util.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\VelocityEstimator.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Hints\Scripts\ControllerButtonHints.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\ArcheryTarget.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\Arrow.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\ArrowHand.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\ArrowheadRotation.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\Balloon.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\BalloonColliders.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\BalloonHapticBump.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\BalloonSpawner.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\ExplosionWobble.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\FireSource.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\Longbow.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\SoundBowClick.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Samples\Scripts\ControllerHintsExample.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Samples\Scripts\InteractableExample.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\AllowTeleportWhileAttachedToHand.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\ChaperoneInfo.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\IgnoreTeleportTrace.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\Teleport.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\TeleportArc.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\TeleportArea.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\TeleportMarkerBase.cs" />
+     <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\TeleportPoint.cs" />
+     <Compile Include="Assets\SteamVR\Plugins\openvr_api.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Camera.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_CameraFlip.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_CameraMask.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Controller.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_ControllerManager.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Ears.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Events.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_ExternalCamera.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Fade.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Frustum.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_GameView.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_IK.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_LoadLevel.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Menu.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Overlay.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_PlayArea.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Render.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_RenderModel.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Skybox.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_SphericalProjection.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Stats.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TestController.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedCamera.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+     <Compile Include="Assets\scripts\Arrow.cs" />
+     <Compile Include="Assets\scripts\arrowManager.cs" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Terrain Trees\ReadMe.txt" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\SteamVR\readme.txt" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
+     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
+     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
