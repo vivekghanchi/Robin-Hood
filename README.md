@@ -6,4 +6,4 @@ RobinHood is the VR supported game which is mainly builed and tested on HTC Vive
 ## Contributers
 
 - Vivek Ghanchi([@vivekghanchi](https://github.com/vivekghanchi))
-- Akshay Nandwana([@akshaynandwana001](https://github.com/akshaynandwana001))
+- Akshay Nandwana([@anandwana001](https://github.com/anandwana001))
