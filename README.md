@@ -1,6 +1,6 @@
 # Robin-Hood
 
-RobinHood is the Virtual Reality supported game which is developed and tested on HTC Vive. User will have bow in right hand controller and arrow in left hand controller. There is no limit of arrow till now. User can just strike arrow anywhere in the forest. 
+RobinHood is the Virtual Reality supported game which is developed and tested on HTC Vive. User will have a bow in right hand controller and arrow in left hand controller. There is no limit of arrow till now. User can just strike arrow anywhere in the forest. 
 
 ## Technology Stack 
  
